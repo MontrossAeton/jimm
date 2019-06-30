@@ -11,13 +11,11 @@ class ProfileController extends BaseController
     {
         $user = current_user();
         $subscription = $user->subscription;
-        $user_is_premium = false;
+        $user_is_premium = $user->isPremium();
         $subscription_is_pending = false;
 
         if ($subscription) {
-            if ($user->isPremium()) {
-                $user_is_premium = true;
-            } else if ($subscription->status === "Pending"){
+            if ($subscription->status === "Pending"){
                 $subscription_is_pending = true;
             }
         }
