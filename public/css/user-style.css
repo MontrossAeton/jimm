@@ -1,0 +1,93 @@
+html, body {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.post-header {
+  background-color: gray;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.gym-header {
+  background-color: gray;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.post-content {
+  background-color: white;
+  display: flex;
+  text-align: justify;
+}
+
+.post-comments {
+  height: 20vh;
+}
+
+.comment-input {
+  max-height: 100%;
+}
+
+.map-content {
+  display: flex;
+  height: 80vh;
+  flex-direction: row;
+}
+
+.map-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 30vh;
+  padding-top: 20px;
+}
+
+.search-list-input {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.map-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.map-search-row {
+  border-bottom: 1px solid gray;
+  padding: 30px; 
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+
+.map-search-row:hover {
+  background-color: lightgray;
+}
+
+#map {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+span#result-bmi {
+  display: none;
+}
+
+#profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

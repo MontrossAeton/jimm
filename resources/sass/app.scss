@@ -1,0 +1,41 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+textarea {
+    overflow: hidden;
+    transition: none !important;
+}
+
+.disabled-button {
+    pointer-events: none;
+}
+
+.cursor-pointer {
+    cursor: pointer
+}
+
+.flash-message {
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    z-index: 900;
+}
+
+.star-rating {
+    font-size: 1.25em;
+}
+.star-rating .fa-star {
+    color: orange;
+}
